@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
 <body>
+    <?php include "menu.php"; ?>
     <h2>Mi nuevo documento html</h2>
     <p>Mi primer párrafo</p>
     <p>Mi segundo párrafo</p>
