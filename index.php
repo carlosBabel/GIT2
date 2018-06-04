@@ -15,7 +15,9 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-    <?php include "menu.php"; ?>
+    <header>
+        <?php include "menu.php"; ?>
+    </header>
     <div class="container">
         <h2>Mi nuevo documento html</h2>
         <p>
@@ -23,10 +25,12 @@
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum incidunt exercitationem, inventore sit saepe suscipit tenetur placeat aliquam ad voluptates ut aut.   
         </p>
         <p>
-            <h3>Mi segundo párrafo</h3>
+            <h3>Mi segundo párrafo</h3>s
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum incidunt exercitationem, inventore sit saepe suscipit tenetur placeat aliquam ad voluptates ut aut.   
         </p
     </div>
+    <?php include "footer.php"; ?>
+    
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
