@@ -18,18 +18,26 @@
     <header>
         <?php include "menu.php"; ?>
     </header>
-    <div class="container">
-        <h2>Mi nuevo documento html</h2>
-        <p>
-            <h3>Mi primer párrafo</h3>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum incidunt exercitationem, inventore sit saepe suscipit tenetur placeat aliquam ad voluptates ut aut.   
-        </p>
-        <p>
-            <h3>Mi segundo párrafo</h3>s
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum incidunt exercitationem, inventore sit saepe suscipit tenetur placeat aliquam ad voluptates ut aut.   
-        </p
-    </div>
-    <?php include "footer.php"; ?>
+    <main>
+        <div class="container">
+            <h2>Mi nuevo documento html</h2>
+            <p>
+                <h3>Mi primer párrafo</h3>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum incidunt exercitationem, inventore sit saepe suscipit tenetur placeat aliquam ad voluptates ut aut.   
+            </p>
+            <p>
+                <h3>Mi segundo párrafo</h3>s
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum incidunt exercitationem, inventore sit saepe suscipit tenetur placeat aliquam ad voluptates ut aut.   
+            </p>
+            <p>
+                <h3>Mi tercer párrafo</h3>s
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum incidunt exercitationem, inventore sit saepe suscipit tenetur placeat aliquam ad voluptates ut aut.   
+            </p>
+        </div>
+    </main>
+    <footer>
+        <?php include "footer.php"; ?>
+    </footer>
     
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
